@@ -20,3 +20,7 @@ code {
   padding: 0;
   margin: 0;
 }
+
+.custom-font-1 {
+  font-size: 1.2rem;
+}

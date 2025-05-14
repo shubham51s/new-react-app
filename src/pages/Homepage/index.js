@@ -2,8 +2,8 @@ import React from "react";
 
 function Homepage() {
   return (
-    <div>
-      <h1 className="text-red-500">Homepage</h1>
+    <div className="w-screen h-screen flex items-center justify-center">
+      <div className="text-red-500 font-bold">Homepage</div>
     </div>
   );
 }
