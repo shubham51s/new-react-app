@@ -24,3 +24,21 @@ code {
 .custom-font-1 {
   font-size: 1.2rem;
 }
+
+.light-theme {
+  --text-color-1: gray;
+  --bg-color-1: black;
+}
+
+.dark-theme {
+  --text-color-1: black;
+  --bg-color-1: white;
+}
+
+.bg-1 {
+  background-color: var(--bg-color-1);
+}
+
+.text-color-1 {
+  color: var(--text-color-1);
+}
