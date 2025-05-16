@@ -27,6 +27,12 @@ code {
   --bg-color-1: white;
   --bg-blue: blue;
   --bg-color-2: gray;
+
+  /* need to remove above variables */
+  --bg-color-1: #0D1321;
+  --bg-color-2: #1D2D44;
+  --bg-color-3: #3E5C76;
+  --bg-color-4: #748CAB;
 }
 
 .light-theme {
@@ -34,6 +40,12 @@ code {
   --bg-color-1: black;
   --bg-blue: blue;
   --bg-color-2: gray;
+  /* need to remove above variables */
+  /* light theme pending */
+  --bg-color-1: #0D1321;
+  --bg-color-2: #1D2D44;
+  --bg-color-3: #3E5C76;
+  --bg-color-4: #748CAB;
 }
 
 /* .dark-theme {
@@ -43,16 +55,28 @@ code {
 
 /* background colors */
 
-.bg-1 {
-  background-color: var(--bg-color-1);
-}
-
 .custom-bg-blue {
   background-color: var(--bg-blue);
 }
 
 .custom-bg-gray {
   background-color: var(--bg-color-2);
+}
+
+.custom-bg-1 {
+  background-color: var(--bg-color-1);
+}
+
+.custom-bg-2 {
+  background-color: var(--bg-color-2);
+}
+
+.custom-bg-3 {
+  background-color: var(--bg-color-3);
+}
+
+.custom-bg-4 {
+  background-color: var(--bg-color-4);
 }
 
 /* text colors */

@@ -14,7 +14,7 @@ function Homepage() {
 
   return (
     <>
-      <div className={`flex items-center justify-center w-screen h-screen gap-4 bg-1 ${theme}`}>
+      <div className={`flex items-center justify-center w-screen h-screen gap-4 custom-bg-1 ${theme}`}>
         <div className="font-bold text-color-1">Homepage</div>
         <button className="text-color-1" onClick={toggleTheme}>
           Toggle Theme
